@@ -1,0 +1,11 @@
+﻿<Application x:Class="ShoppingList.WindowsDesktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:localization="clr-namespace:ShoppingList.Core.Localization;assembly=ShoppingList.Core"
+             xmlns:desktop="clr-namespace:ShoppingList.WindowsDesktop"
+             StartupUri="MainWindow.xaml">
+  <Application.Resources>
+    <localization:ShoppingListLocalization x:Key="Localization"/>
+    <desktop:AppContextWindowsDesktop x:Key="App"/>
+  </Application.Resources>
+</Application>
