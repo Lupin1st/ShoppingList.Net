@@ -1,5 +1,7 @@
-﻿namespace ShoppingList.Core.Model {
-    public class DataProduct : DataObjectBase {
+﻿using Cirrious.MvvmCross.ViewModels;
+
+namespace ShoppingList.Core.Model {
+    public class DataProduct : MvxNotifyPropertyChanged {
         private string _name;
         private string _amount;
         private bool _bought;

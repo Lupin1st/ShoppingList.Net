@@ -22,38 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B450E4
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinRT", "WinRT", "{25728813-3BB6-471C-8FE7-77E6F05C77A9}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ShoppingList.Windows\ShoppingList.Windows.Shared\ShoppingList.Windows.Shared.projitems*{2e0485cf-56cd-43ec-98ac-9082b9474778}*SharedItemsImports = 4
 		ShoppingList.Windows\ShoppingList.Windows.Shared\ShoppingList.Windows.Shared.projitems*{8b947f59-5a4a-447d-b828-8445c8725270}*SharedItemsImports = 13
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://valentin.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ShoppingList.Android\\ShoppingList.Android.csproj
-		SccProjectName1 = ShoppingList.Android
-		SccLocalPath1 = ShoppingList.Android
-		SccProjectUniqueName2 = ShoppingList.Core\\ShoppingList.Core.csproj
-		SccProjectName2 = ShoppingList.Core
-		SccLocalPath2 = ShoppingList.Core
-		SccProjectUniqueName3 = ShoppingList.Core.Tests\\ShoppingList.Core.Tests.csproj
-		SccProjectName3 = ShoppingList.Core.Tests
-		SccLocalPath3 = ShoppingList.Core.Tests
-		SccProjectUniqueName4 = ShoppingList.Windows\\ShoppingList.Windows.Shared\\ShoppingList.Windows.Shared.shproj
-		SccProjectName4 = ShoppingList.Windows/ShoppingList.Windows.Shared
-		SccLocalPath4 = ShoppingList.Windows\\ShoppingList.Windows.Shared
-		SccProjectUniqueName5 = ShoppingList.Windows\\ShoppingList.Windows.Shared\\ShoppingList.Windows.Shared.projitems
-		SccProjectTopLevelParentUniqueName5 = ShoppingList.Windows\\ShoppingList.Windows.Shared\\ShoppingList.Windows.Shared.shproj
-		SccProjectName5 = ShoppingList.Windows/ShoppingList.Windows.Shared
-		SccLocalPath5 = ShoppingList.Windows\\ShoppingList.Windows.Shared
-		SccProjectUniqueName6 = ShoppingList.Windows\\ShoppingList.Windows.Windows\\ShoppingList.Windows.Windows.csproj
-		SccProjectName6 = ShoppingList.Windows/ShoppingList.Windows.Windows
-		SccLocalPath6 = ShoppingList.Windows\\ShoppingList.Windows.Windows
-		SccProjectUniqueName7 = ShoppingList.WindowsDesktop\\ShoppingList.WindowsDesktop.csproj
-		SccProjectName7 = ShoppingList.WindowsDesktop
-		SccLocalPath7 = ShoppingList.WindowsDesktop
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,5 +109,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B947F59-5A4A-447D-B828-8445C8725270} = {25728813-3BB6-471C-8FE7-77E6F05C77A9}
+		{2E0485CF-56CD-43EC-98AC-9082B9474778} = {25728813-3BB6-471C-8FE7-77E6F05C77A9}
 	EndGlobalSection
 EndGlobal

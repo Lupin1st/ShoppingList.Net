@@ -1,8 +1,9 @@
 ﻿using System.Collections.ObjectModel;
 using System.Diagnostics;
+using Cirrious.MvvmCross.ViewModels;
 
 namespace ShoppingList.Core.Model {
-    public class DataList : DataObjectBase {
+    public class DataList : MvxNotifyPropertyChanged {
         private string _name;
         private ObservableCollection<DataProduct> _products;
 
