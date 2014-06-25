@@ -9,3 +9,6 @@ The project uses the MVVM structure to enhance many aspects of the cross platfor
 The application itself is a simple sopping list that is only partly implemented to show critical scenarios of cross platform development. The application uses MVVM Cross to provide the base structure for our application.
 
 A link to the finished document that will describe and analyze this sample project as well as another project developed with web technologies will be published here in the future.
+
+
+To build this solution you will need Visual Studio 2013 with Update 2 or higher as well as the current Xamarin.Android add-in installed.
